@@ -16,6 +16,14 @@ type History struct {
 	cursor   int
 }
 
+func (h *History) GetSize() int {
+	return h.maxSize
+}
+
+func (h *History) SetSize(num int) {
+	h.maxSize = num
+}
+
 // NewHistory returns the pointer to a new History struct
 func NewHistory(path string, maxSize int) (*History, error) {
 	fmtError := func(e error) error {
