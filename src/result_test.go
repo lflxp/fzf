@@ -1,3 +1,4 @@
+//go:build !tcell
 // +build !tcell
 
 package fzf
@@ -7,8 +8,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/junegunn/fzf/src/tui"
-	"github.com/junegunn/fzf/src/util"
+	"github.com/lflxp/fzf/src/tui"
+	"github.com/lflxp/fzf/src/util"
 )
 
 func withIndex(i *Item, index int) *Item {

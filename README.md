@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/junegunn/i/master/fzf.png" height="170" alt="fzf - a command-line fuzzy finder"> [![github-actions](https://github.com/junegunn/fzf/workflows/Test%20fzf%20on%20Linux/badge.svg)](https://github.com/junegunn/fzf/actions)
+<img src="https://raw.githubusercontent.com/junegunn/i/master/fzf.png" height="170" alt="fzf - a command-line fuzzy finder"> [![github-actions](https://github.com/lflxp/fzf/workflows/Test%20fzf%20on%20Linux/badge.svg)](https://github.com/lflxp/fzf/actions)
 ===
 
 fzf is a general-purpose command-line fuzzy finder.
@@ -82,7 +82,7 @@ fzf project consists of the following components:
 You can [download fzf executable][bin] alone if you don't need the extra
 stuff.
 
-[bin]: https://github.com/junegunn/fzf/releases
+[bin]: https://github.com/lflxp/fzf/releases
 
 ### Using Homebrew
 
@@ -103,10 +103,10 @@ fzf is also available [via MacPorts][portfile]: `sudo port install fzf`
 ### Using git
 
 Alternatively, you can "git clone" this repository to any directory and run
-[install](https://github.com/junegunn/fzf/blob/master/install) script.
+[install](https://github.com/lflxp/fzf/blob/master/install) script.
 
 ```sh
-git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+git clone --depth 1 https://github.com/lflxp/fzf.git ~/.fzf
 ~/.fzf/install
 ```
 
@@ -149,7 +149,7 @@ available via [Chocolatey][choco] and [Scoop][scoop]:
 Known issues and limitations on Windows can be found on [the wiki
 page][windows-wiki].
 
-[windows-wiki]: https://github.com/junegunn/fzf/wiki/Windows
+[windows-wiki]: https://github.com/lflxp/fzf/wiki/Windows
 
 ### As Vim plugin
 
@@ -292,10 +292,10 @@ If you learn by watching videos, check out this screencast by [@samoshkin](https
 Examples
 --------
 
-* [Wiki page of examples](https://github.com/junegunn/fzf/wiki/examples)
+* [Wiki page of examples](https://github.com/lflxp/fzf/wiki/examples)
     * *Disclaimer: The examples on this page are maintained by the community
       and are not thoroughly tested*
-* [Advanced fzf examples](https://github.com/junegunn/fzf/blob/master/ADVANCED.md)
+* [Advanced fzf examples](https://github.com/lflxp/fzf/blob/master/ADVANCED.md)
 
 `fzf-tmux` script
 -----------------
@@ -346,7 +346,7 @@ If you're on a tmux session, you can start fzf in a tmux split-pane or in
 a tmux popup window by setting `FZF_TMUX_OPTS` (e.g. `-d 40%`).
 See `fzf-tmux --help` for available options.
 
-More tips can be found on [the wiki page](https://github.com/junegunn/fzf/wiki/Configuring-shell-key-bindings).
+More tips can be found on [the wiki page](https://github.com/lflxp/fzf/wiki/Configuring-shell-key-bindings).
 
 Fuzzy completion for bash and zsh
 ---------------------------------
@@ -551,7 +551,7 @@ See *KEY BINDINGS* section of the man page for details.
 ### Reloading the candidate list
 
 By binding `reload` action to a key or an event, you can make fzf dynamically
-reload the candidate list. See https://github.com/junegunn/fzf/issues/1750 for
+reload the candidate list. See https://github.com/lflxp/fzf/issues/1750 for
 more details.
 
 #### 1. Update the list of processes by pressing CTRL-R
@@ -592,7 +592,7 @@ If ripgrep doesn't find any matches, it will exit with a non-zero exit status,
 and fzf will warn you about it. To suppress the warning message, we added
 `|| true` to the command, so that it always exits with 0.
 
-See ["Using fzf as interative Ripgrep launcher"](https://github.com/junegunn/fzf/blob/master/ADVANCED.md#using-fzf-as-interative-ripgrep-launcher)
+See ["Using fzf as interative Ripgrep launcher"](https://github.com/lflxp/fzf/blob/master/ADVANCED.md#using-fzf-as-interative-ripgrep-launcher)
 for a fuller example with preview window options.
 
 ### Preview window
@@ -705,7 +705,7 @@ set -g FZF_CTRL_T_COMMAND "command find -L \$dir -type f 2> /dev/null | sed '1d;
 Related projects
 ----------------
 
-https://github.com/junegunn/fzf/wiki/Related-projects
+https://github.com/lflxp/fzf/wiki/Related-projects
 
 [License](LICENSE)
 ------------------

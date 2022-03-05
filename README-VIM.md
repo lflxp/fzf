@@ -64,7 +64,7 @@ the basic file selector command built on top of them.
     - Basic fuzzy file selector
     - A reference implementation for those who don't want to write VimScript
       to implement custom commands
-    - If you're looking for more such commands, check out [fzf.vim](https://github.com/junegunn/fzf.vim) project.
+    - If you're looking for more such commands, check out [fzf.vim](https://github.com/lflxp/fzf.vim) project.
 
 The most important of all is `fzf#run`, but it would be easier to understand
 the whole if we start off with `:FZF` command.

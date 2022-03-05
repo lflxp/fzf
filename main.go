@@ -1,8 +1,8 @@
 package main
 
 import (
-	fzf "github.com/junegunn/fzf/src"
-	"github.com/junegunn/fzf/src/protector"
+	fzf "github.com/lflxp/fzf/src"
+	"github.com/lflxp/fzf/src/protector"
 )
 
 var version string = "0.29"

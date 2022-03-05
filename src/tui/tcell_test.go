@@ -1,3 +1,4 @@
+//go:build tcell || windows
 // +build tcell windows
 
 package tui
@@ -6,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/gdamore/tcell"
-	"github.com/junegunn/fzf/src/util"
+	"github.com/lflxp/fzf/src/util"
 )
 
 func assert(t *testing.T, context string, got interface{}, want interface{}) bool {

@@ -18,8 +18,8 @@ import (
 	"github.com/mattn/go-runewidth"
 	"github.com/rivo/uniseg"
 
-	"github.com/junegunn/fzf/src/tui"
-	"github.com/junegunn/fzf/src/util"
+	"github.com/lflxp/fzf/src/tui"
+	"github.com/lflxp/fzf/src/util"
 )
 
 // import "github.com/pkg/profile"
